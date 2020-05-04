@@ -1,0 +1,36 @@
+.menu{
+    box-sizing: border-box;
+    background-color: rgb(41, 40, 40);
+    width: 90%;
+    border:1px solid rgb(78, 77, 77);
+    border-radius: 0.7rem;
+    box-shadow:0 0 40px  rgb(201, 198, 198);
+    padding: 10px;
+    color:white;
+    position: relative;
+    left: 9%;
+    margin-bottom: 30px;
+}
+
+.menu label{
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    left: 2%;
+}
+
+.items {
+    border-top: 1px solid white;
+    width: 98%;
+    padding: 13px 0px;
+    margin-top: 3px;
+    font-size: 20px;
+    position: relative;
+    left: 2%;
+}
+.items p{
+    font-size: 20px;
+    color: white;
+}
+

@@ -1,0 +1,11 @@
+.Main{
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin-top: 3%;
+    
+}
+
+.images img{
+    margin-left: 20%;
+    box-shadow: 0 0 20px rgb(197, 195, 195);
+}

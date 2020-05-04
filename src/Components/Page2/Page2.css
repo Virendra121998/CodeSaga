@@ -1,0 +1,13 @@
+.page2{
+    background-color: rgb(65, 63, 63);
+    position: relative;
+}
+
+.heading{
+    font-size: 60px;
+    position: relative;
+    margin-left:35%;
+    color: white;
+    margin-top: 3%;
+    font-weight: 300;
+}

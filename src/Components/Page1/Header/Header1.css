@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    
+}
+.block{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.options{
+    margin-left: 30%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.options label{
+    margin: 15px;
+    transition: 1s;
+    border-bottom: 1px solid transparent;
+}
+.boot{
+    margin-left: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-weight: 300;
+    color: gray;
+    padding: 0px 10px;
+    background-color: white;
+    border:1px solid rgb(194, 191, 191)
+}
+.boot:hover{
+    box-shadow: 0 0 30 rgb(202, 201, 201);
+}
+.options label:hover{
+ border-bottom: 1px solid black;
+}
+
+
+
+.l1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Antipasto;
+}
+@font-face {
+    font-family: gotham;
+    src:url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css')
+}
+.l2{
+    margin-left: 30px;
+    font-family: gotham;
+}

@@ -1,0 +1,38 @@
+@keyframes shake {
+    0% { transform: translate(0px, 4px);}
+    25% {transform :translate(0px, 2px);}
+    35% {transform :translate(0px, 0px);}
+    50% {transform :translate(0px, -2px);}
+    65% {transform:translate(0px,-4px);}
+    75% {transform :translate(0px, -2px);}
+    100% { transform: translate(0px, 0px);}
+  }
+  
+
+.footer{
+    margin-top: 9%;
+    width: 100%;
+    left: 0;
+    bottom:100;
+    
+}
+
+
+
+.footer img{
+    height: 120px;
+    width: 120px;
+    filter:grayscale(100%);
+    margin-left: 8%;
+    transition: 1s;
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+}
+
+.footer img:hover{
+    filter: brightness(100%);
+    height:150px;
+    width:150px;
+}
+
+

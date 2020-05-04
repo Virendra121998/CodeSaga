@@ -1,0 +1,45 @@
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10%;
+}
+.left{
+    margin-top:20%;
+}
+.left label{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.bttn{
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(43, 42, 42);
+  padding: 20px 80px;
+  margin-top: 50px;
+  box-shadow: 0 0 20 rgb(209, 209, 209);
+  left: 15%;
+  transition: 1s;
+}
+
+.bttn:hover{
+  background-color: white;
+  color:black;
+  padding: 24px 85px;
+  font-weight: 500;
+}
+
+.label2{
+    margin-left: 65px;
+}
+
+
+
+.right{
+    margin-top: 20%;
+    animation-name: example 1s;
+    animation-iteration-count: infinite;
+}
+
