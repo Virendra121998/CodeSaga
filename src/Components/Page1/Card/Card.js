@@ -26,7 +26,7 @@ class Element extends React.Component{
         timeout={2000}
         appear
         classNames="disp1"
-        onEntering={()=>setTimeout(()=>{this.setState({showCard:false})},1000)}
+        onEntering={()=>setTimeout(()=>{this.setState({showCard:false})},3000)}
         onExiting={()=>setTimeout(()=>{this.changeCard(this.state.id)},1000)}
       > 
         <div className="disp"> 
