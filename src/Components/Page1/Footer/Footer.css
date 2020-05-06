@@ -1,14 +1,52 @@
-@keyframes shake {
+@keyframes shake1 {
     0% { transform: translate(0px, 4px);}
-    25% {transform :translate(0px, 2px);}
-    35% {transform :translate(0px, 0px);}
-    50% {transform :translate(0px, -2px);}
-    65% {transform:translate(0px,-4px);}
-    75% {transform :translate(0px, -2px);}
-    100% { transform: translate(0px, 0px);}
+    15% {transform :translate(0px, 2px);}
+    25% {transform :translate(0px, 0px);}
+    35% {transform :translate(0px, -2px);}
+    45% {transform:translate(0px,-4px);}
+    65% {transform :translate(0px, -2px);}
+    75% {transform:translate(0px,0px);}
+    85% {transform:translate(0px,2px);}
+    100% { transform: translate(0px, 4px);}
+  }
+ 
+  @keyframes shake2 {
+    0% { transform: translate(0px, -4px);}
+    15% {transform :translate(0px, -2px);}
+    25% {transform :translate(0px, 0px);}
+    35% {transform :translate(0px, 2px);}
+    45% {transform:translate(0px,4px);}
+    65% {transform :translate(0px,2px);}
+    75% {transform:translate(0px,0px);}
+    85% {transform:translate(0px,-2px);}
+    100% { transform: translate(0px,-4px);}
   }
   
+#img1{
+ animation: shake1 2s ;
+ animation-iteration-count: infinite;
+}
 
+#img3{
+    animation: shake1 2s ;
+    animation-iteration-count: infinite;
+   }
+#img5{
+    animation: shake1 2s ;
+    animation-iteration-count: infinite;
+   }
+#img2{
+ animation: shake2 2s;
+ animation-iteration-count: infinite;
+}
+#img4{
+    animation: shake2 2s;
+    animation-iteration-count: infinite;
+}
+#img6{
+    animation: shake2 2s;
+    animation-iteration-count: infinite;
+}   
 .footer{
     margin-top: 9%;
     width: 100%;
@@ -25,8 +63,7 @@
     filter:grayscale(100%);
     margin-left: 8%;
     transition: 1s;
-    animation: shake 2s;
-    animation-iteration-count: infinite;
+    
 }
 
 .footer img:hover{

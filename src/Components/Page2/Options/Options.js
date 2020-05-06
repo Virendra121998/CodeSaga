@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {Collapse} from 'react-collapse';
+import {Collapse} from 'react-bootstrap';
 import {connect} from 'react-redux';
 import './Options.css';
 import * as actionTypes from '../../../store/action';
@@ -7,9 +7,15 @@ import * as actionTypes from '../../../store/action';
 const Options=(props)=>{
       
       return (
-          <div className="menu" onMouseEnter={()=>props.mouseEnter(props.id)} >  
+          <div className="menu" onMouseEnter={()=>props.mouseEnter(props.id)}>  
             <label>{props.title}</label>
-      <Collapse isOpened={props.open[props.id]}><div className="items">{props.body}</div></Collapse> 
+            <Collapse in={props.open[props.id]}>
+             <div id="example-collapse-text"> 
+               <div className="items">
+               {props.body}
+               </div> 
+             </div> 
+            </Collapse> 
           </div>
     );
    }

@@ -15,19 +15,20 @@
   position: relative;
   font-size: 25px;
   font-weight: 500;
+  box-sizing: border-box;
   color: white;
   background-color: rgb(43, 42, 42);
   padding: 20px 80px;
   margin-top: 50px;
-  box-shadow: 0 0 20 rgb(209, 209, 209);
   left: 15%;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .bttn:hover{
   background-color: white;
   color:black;
   padding: 24px 85px;
+  box-shadow: 0 0 20px 10px rgb(173, 172, 172);
   font-weight: 500;
 }
 

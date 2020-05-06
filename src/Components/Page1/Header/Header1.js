@@ -4,11 +4,11 @@ import {Button} from 'react-bootstrap';
 
 const Header1=()=>{
  return(
+  <div>
   <div class="nav">
      <div className="block"> 
        <label className="l1">code saga</label>
-       <br/>
-       <label className="l2">An IOSD INITIATIVE</label>
+       
      </div>
      <div className="options">
          <label className="left">Question Library</label>
@@ -18,6 +18,8 @@ const Header1=()=>{
          <button className="boot">Login</button>
      </div>
      
+  </div>
+  <label className="l2">An IOSD INITIATIVE</label>
   </div>
  ) 
 }

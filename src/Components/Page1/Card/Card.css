@@ -1,28 +1,49 @@
-@keyframes example {
+@keyframes example1 {
     0% {transform: translateY(-100%);}
+    10% {transform: translateY(0);}
+    
     20% {transform: translateY(0);}
     
-    40% {transform: translateY(0);}
+    30% {transform: translateY(0);}
     
-    60% {transform: translateY(0);}
+    100% {transform: translateY(0);}
+}
+
+@keyframes example2 {
+    0% {transform: translateX(0);}
+    10% {transform: translateX(0);}
     
-    80% {transform: translateY(0);}
+    20% {transform: translateX(0);}
+    
+    30% {transform: translateX(0);}
     
     100% {transform: translateX(100%);}
+    
 }
-
-
-
 .disp{
-  display: table;
-  table-layout: fixed;
-  width: 50%;
-  max-width: 400px;
-  animation: example 3s;
-    animation-iteration-count: infinite;
-  
+    display: table;
+    table-layout: fixed;
+    width: 50%;
+    max-width: 400px;
+}
+.disp1-enter{
+    opacity: 0;
+}
+.disp1-enter-active{
+  opacity: 1;
+  animation: example1;
+  animation-duration: 3.5s;
 
 }
+.disp1-exit{
+    opacity: 1;
+}
+.disp1-exit-active{
+  
+    animation: example2;
+    animation-duration: 1s;
+  }
+
 
 .card1{
     display: table-cell;
@@ -39,7 +60,7 @@
     position: relative;
     top: 23%;
     left: 5%;
-    height: 80%;
+    height: 90%;
     width: 80%;
 }
 
@@ -57,7 +78,7 @@
     font-size: 25px;
     color: white;
     transform: rotate(10deg);
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(37, 37, 37);
     width: 20rem;
     height: 15rem;
     z-index: 1;
@@ -65,4 +86,6 @@
 
 .text2{
     text-align: center;
+    color :white;
+    font-weight: 500;
 }
